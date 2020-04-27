@@ -12,14 +12,14 @@ Her şeyi silip baştan kurmaya karar verdim.
 Responsive website kurmayı 4 gün boyunca hem araştırdım hem de yazdığım kodları test ettim. 
 Takıldığım bazı yerleri bana HTML ve CSS öğreten Hakan Yıldız'a sordum. Muhteşem bir insan.
 
-Araştırdığım siteler ise şunlar oldu:
-http://www.responsivegridsystem.com/
-https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
-https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3
+Araştırdığım siteler ise şunlar oldu: <br>
+http://www.responsivegridsystem.com/<br>
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp<br>
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3<br>
 https://www.w3schools.com/html/html_responsive.asp
 
 Telefondan test etmek için canlı bir sunucuya ihtiyacım vardı ve Visual Studio Code'a eklenti kurdum.
-Eklenti:
+<br>Eklenti:<br>
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 4 gün süren araştırmadan sonra 3 saat içinde her şeyi bitirdim.
@@ -35,14 +35,14 @@ I decided to delete everything and build it from the beginning.
 I researched how can i built responsive website for 4 days and I tested the codes I wrote.
 I had some issues so I asked these to my great teacher Hakan Yıldız who taught to me HTML & CSS. He is a great guy.
 
-Here's websites that i researched:
-http://www.responsivegridsystem.com/
-https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp
-https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3
+Here's websites that i researched:<br>
+http://www.responsivegridsystem.com/<br>
+https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp<br>
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3<br>
 https://www.w3schools.com/html/html_responsive.asp
 
 I installed a extension to Visual Studio Code for I need a live server to test codes on my phone.
-Extension:
+<br>Extension:<br>
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 I finished everything within 3 hours after 4 days of research.
