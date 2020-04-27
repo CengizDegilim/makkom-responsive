@@ -1,0 +1,193 @@
+/*Skeleton*/
+
+html, body{ 
+    margin: 0; 
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}  
+
+
+
+
+
+/*Title - Logo*/
+
+    /*Title*/
+
+ .title h1{
+    font-family: "bocek-bold";
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 75px;
+    color: #e45807;    
+    
+}
+
+    /*Logo*/
+
+.logoclass{
+    margin-top: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+    /*Navbar*/
+
+div.navbar-inside a{
+    text-decoration: none;
+    font-family: "bocek-bold";
+    background-color: #f1f1f1;  
+    display: block;
+    padding: 8.8px 14.2px;
+    text-decoration: none;
+    border-bottom: 1px solid #803104;;
+    color: #f75c03;
+}
+
+div.navbar-inside {
+    list-style-type: none;
+    display: table-row;       
+    margin: 15px;
+    padding: 0;
+    width: 144px; 
+    font-family: "bocek-bold";
+    font-size: 1.1em
+}
+
+div.navbar-inside a:hover {
+    background-color: #db995a;
+    color: #654236;
+}
+
+
+
+
+
+    /*Content*/
+
+.content-inside { 
+    font-family: "bocek-bold";
+    font-size: 1.4em;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    }
+
+
+
+
+
+    /*Footer*/
+
+.footer { 
+    background-color: slategray;
+    text-align: center;
+    font-family: "bocek-bold";
+    display: table-row;
+    height: 1px;
+    margin-top: 75px;
+    border-top: 3px solid black;
+    font-size: 1.0em;
+    background-color: rgba(255, 255, 255, 1.0);
+    }
+
+
+
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 601px) {
+    .title h1 {
+      font-size: 5.0rem;
+    }
+    
+}
+  
+  /*For mobile*/
+@media screen and (max-width: 600px) {
+    .title h1 {
+      font-size: 3.0rem;
+      margin-top: 140px !important;
+    }
+
+    html, body{
+        background-image: url(../img/backgroundformobile.png);
+    }
+
+    div.navbar-inside {
+        font-family: "bocek-bold";
+        font-size: 1.1em;
+        list-style-type: none;
+        display: table-row;      
+        margin: 15px;
+        padding: 0;
+        width: 154px;
+    }
+    
+    div.navbar-inside a{
+        display: inline-block !important;
+        padding: 8.8px 25.24px !important;
+        text-decoration: none;
+        border-bottom: 1px solid #803104;
+        border-top: 1px solid #803104;
+        border-right: 1px solid #803104;
+        color: #f75c03;     
+        text-decoration: none;
+        font-family: "bocek-bold";
+        background-color: #f1f1f1;  
+    }
+
+    .content-inside { 
+        font-family: "bocek-bold";
+        height: auto;
+        margin-left: auto !important;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
+
+
+
+
+
+    /*Font*/
+
+@font-face{
+    font-family: "bocek";
+    src: url(../font/Champagne_Limousines.ttf);
+}
+
+@font-face{
+    font-family: "bocek-bold";
+    src: url(../font/Champagne_Limousines_Bold.ttf);
+}
+
+
+/*
+  Ceyhun Gulbas 09/03/2020
+  https://www.linkedin.com/in/ceyhun-gulbas/
+*/
