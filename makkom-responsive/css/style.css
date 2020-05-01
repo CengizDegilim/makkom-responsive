@@ -78,7 +78,7 @@ div.navbar-inside a:hover {
     font-family: "bocek-bold";
     font-size: 1.4em;
     height: auto;
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.5);
     }
@@ -129,15 +129,18 @@ div.navbar-inside a:hover {
         font-family: "bocek-bold";
         font-size: 1.1em;
         list-style-type: none;
-        display: table-row;      
-        margin: 15px;
+        display: block;      
+        
         padding: 0;
-        width: 154px;
+        margin: 0;
+        width: 100%;
     }
     
     div.navbar-inside a{
-        display: inline-block !important;
+        display: block !important;
+        text-align: center;
         padding: 8.8px 25.24px !important;
+        width: 100%;
         text-decoration: none;
         border-bottom: 1px solid #803104;
         border-top: 1px solid #803104;
