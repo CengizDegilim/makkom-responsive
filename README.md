@@ -13,10 +13,10 @@ Responsive website kurmayı 4 gün boyunca hem araştırdım hem de yazdığım 
 Takıldığım bazı yerleri bana HTML ve CSS öğreten Hakan Yıldız'a sordum. Muhteşem bir insan.
 
 Araştırdığım siteler ise şunlar oldu: <br>
-http://www.responsivegridsystem.com/<br>
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp/<br>
 https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp<br>
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3<br>
-https://www.w3schools.com/html/html_responsive.asp
+https://www.w3schools.com/css/css_rwd_images.asp
 
 Telefondan test etmek için canlı bir sunucuya ihtiyacım vardı ve Visual Studio Code'a eklenti kurdum.
 <br>Eklenti:<br>
@@ -36,10 +36,10 @@ I researched how can i built responsive website for 4 days and I tested the code
 I had some issues so I asked these to my great teacher Hakan Yıldız who taught to me HTML & CSS. He is a great guy.
 
 Here's websites that i researched:<br>
-http://www.responsivegridsystem.com/<br>
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp<br>
 https://www.w3schools.com/bootstrap/bootstrap_grid_examples.asp<br>
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_responsive_media_query3<br>
-https://www.w3schools.com/html/html_responsive.asp
+https://www.w3schools.com/css/css_rwd_images.asp
 
 I installed a extension to Visual Studio Code for I need a live server to test codes on my phone.
 <br>Extension:<br>
