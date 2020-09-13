@@ -3,39 +3,42 @@
 html, body{ 
     margin: 0; 
     background-image: url(../img/background.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
     position: absolute;
-}  
+    padding-right: 5px;
+    padding-left: 5px;
+  }  
 
 
 
 
 
-/*Title - Logo*/
-
-    /*Title*/
-
- .title h1{
-    font-family: "bocek-bold";
+/*Border*/
+* {
+    box-sizing: border-box;  
+    /* border: 1px solid red; */
+}
+      
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+      
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+      
+/*Title - Logo*/          
+header{
     text-align: center;
-    padding-top: 30px;
-    padding-left: 75px;
-    color: #e45807;    
-    
 }
-
-    /*Logo*/
-
-.logoclass{
-    margin-top: 5px;
-    max-width: 100%;
-    height: auto;
-}
-
+      
 
 
 
@@ -48,6 +51,7 @@ div.navbar-inside a{
     background-color: #f1f1f1;  
     display: block;
     padding: 8.8px 14.2px;
+    text-align: center;
     text-decoration: none;
     border-bottom: 1px solid #803104;;
     color: #f75c03;
@@ -56,11 +60,8 @@ div.navbar-inside a{
 div.navbar-inside {
     list-style-type: none;
     display: table-row;       
-    margin: 15px;
-    padding: 0;
-    width: 144px; 
     font-family: "bocek-bold";
-    font-size: 1.1em
+    font-size: 1.1em;
 }
 
 div.navbar-inside a:hover {
@@ -77,11 +78,8 @@ div.navbar-inside a:hover {
 .content-inside { 
     font-family: "bocek-bold";
     font-size: 1.4em;
-    height: auto;
-    margin-left: 20px;
-    margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.5);
-    }
+}
 
 
 
@@ -90,16 +88,27 @@ div.navbar-inside a:hover {
     /*Footer*/
 
 .footer { 
-    background-color: slategray;
     text-align: center;
     font-family: "bocek-bold";
-    display: table-row;
-    height: 1px;
-    margin-top: 75px;
-    border-top: 3px solid black;
-    font-size: 1.0em;
-    background-color: rgba(255, 255, 255, 1.0);
-    }
+    font-size: 1.0em;   
+}
+
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 
@@ -107,78 +116,45 @@ div.navbar-inside a:hover {
 
 /*Media Queries*/
 
-@media screen and (min-width: 601px) {
-    .title h1 {
-      font-size: 5.0rem;
-    }
-    
-}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
   
-  /*For mobile*/
-@media screen and (max-width: 600px) {
-    .title h1 {
-      font-size: 3.0rem;
-      margin-top: 140px !important;
-    }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
 
-    html, body{
-        background-image: url(../img/backgroundformobile.png);
-    }
-
-    div.navbar-inside {
-        font-family: "bocek-bold";
-        font-size: 1.1em;
-        list-style-type: none;
-        display: block;      
-        
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-    
-    div.navbar-inside a{
-        display: block !important;
-        text-align: center;
-        padding: 8.8px 25.24px !important;
-        width: 100%;
-        text-decoration: none;
-        border-bottom: 1px solid #803104;
-        border-top: 1px solid #803104;
-        border-right: 1px solid #803104;
-        color: #f75c03;     
-        text-decoration: none;
-        font-family: "bocek-bold";
-        background-color: #f1f1f1;  
-    }
-
-    .content-inside { 
-        font-family: "bocek-bold";
-        height: auto;
-        margin-left: auto !important;
-        background-color: rgba(255, 255, 255, 0.5);
-    }
-
-    .map-responsive{
-        overflow:hidden;
-        padding-bottom:56.25%;
-        position:relative;
-        height:0;
-    }
-    .map-responsive iframe{
-        left:0;
-        top:0;
-        height:100%;
-        width:100%;
-        position:absolute;
-    }
-}
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
 
 
-
-
-
-    /*Font*/
-
+/*Font*/
 @font-face{
     font-family: "bocek";
     src: url(../font/Champagne_Limousines.ttf);
@@ -188,6 +164,8 @@ div.navbar-inside a:hover {
     font-family: "bocek-bold";
     src: url(../font/Champagne_Limousines_Bold.ttf);
 }
+
+
 
 
 /*
